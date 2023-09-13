@@ -8,7 +8,7 @@ const alunos = [
 
 const notasUnicas = {};
 const alunosSemDuplicatas = alunos.filter((aluno) => {
-    if (!notasUnicas[aluno.nota]) {
+    if (!notasUnicas[aluno.nota] && aluno.nota > 6) {
         notasUnicas[aluno.nota] = true;
         return true;
     }
