@@ -6,6 +6,7 @@ const alunos = [
     { nome: "Carlos", nota: 7.5 },
     { nome: "Willian", nota: 2.5 },
     { nome: "Gabriel", nota: 5.5 },
+    { nome: "Duzz", nota: 10 },
 ];
 
 const notasUnicas = {};
